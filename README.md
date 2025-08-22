@@ -1,5 +1,5 @@
 # postgresql
 ### Backup Database
 ``` bash
-pg_dump -h 127.0.0.1 -p 5432 -U api_user -d mydb -F c -f mydb_20250822.dump
+pg_dump -h 10.239.19.25 -p 5432 -U sso_dev -d nswdbgen2 -f nswdbgen2_20250822.sql 
 ```
